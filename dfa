@@ -1,7 +1,0 @@
-digraph {
-	rankdir=LR
-	S1 [shape=doublecircle]
-	start [label="" shape=none]
-	start -> S1
-	S1 -> S1 [label=a]
-}
