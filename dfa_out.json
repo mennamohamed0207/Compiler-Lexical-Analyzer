@@ -1,0 +1,11 @@
+{
+    "startingState": "S1",
+    "acceptingStates": [
+        "S1"
+    ],
+    "transitions": {
+        "S1": {
+            "a": "S1"
+        }
+    }
+}

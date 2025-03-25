@@ -1,0 +1,42 @@
+{
+    "startingState": "S5",
+    "S5": {
+        "isTerminatingState": false,
+        "ε": "S3_S6"
+    },
+    "S3_S6": {
+        "isTerminatingState": true,
+        "ε": "S1_S4"
+    },
+    "S1_S4": {
+        "isTerminatingState": false,
+        "a": "S2",
+        "ε": "S5_S6"
+    },
+    "S2": {
+        "isTerminatingState": false,
+        "ε": "S3_S4"
+    },
+    "S5_S6": {
+        "isTerminatingState": true,
+        "ε": "S3_S6"
+    },
+    "S3_S4": {
+        "isTerminatingState": false,
+        "ε": "S1_S4_S5_S6"
+    },
+    "S1_S4_S5_S6": {
+        "isTerminatingState": true,
+        "a": "S2",
+        "ε": "S3_S5_S6"
+    },
+    "S3_S5_S6": {
+        "isTerminatingState": true,
+        "ε": "S1_S3_S4_S6"
+    },
+    "S1_S3_S4_S6": {
+        "isTerminatingState": true,
+        "a": "S2",
+        "ε": "S1_S4_S5_S6"
+    }
+}
