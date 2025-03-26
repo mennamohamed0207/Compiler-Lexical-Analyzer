@@ -1,0 +1,11 @@
+digraph {
+	rankdir=LR
+	S0 [label=S0 shape=circle]
+	S1 [label=S1 shape=circle]
+	S2 [label=S2 shape=doublecircle]
+	start [shape=point]
+	start -> S0
+	S0 -> S1 [label=a]
+	S1 -> S1 [label=a]
+	S1 -> S2 [label=b]
+}

@@ -1,0 +1,18 @@
+digraph {
+	rankdir=LR
+	S3 [fillcolor=lightblue shape=circle style=filled]
+	S1 [shape=circle]
+	S2 [shape=circle]
+	S3 [shape=circle]
+	S4 [shape=circle]
+	S5 [shape=circle]
+	S6 [shape=doublecircle]
+	S1 -> S2 [label=a]
+	S2 -> S4 [label="ε"]
+	S2 -> S1 [label="ε"]
+	S3 -> S1 [label="ε"]
+	S4 -> S5 [label="ε"]
+	S5 -> S6 [label=b]
+	start [label="" shape=none]
+	start -> S3
+}
