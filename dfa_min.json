@@ -1,32 +1,19 @@
 {
-    "startingState": "S2",
+    "startingState": "S1",
     "acceptingStates": [
         "S0"
     ],
     "transitions": {
-        "S2": {
-            "b": [
-                "S3"
-            ],
+        "S1": {
             "a": [
                 "S2"
             ]
         },
-        "S3": {
+        "S2": {
             "a": [
-                "S0"
+                "S2"
             ],
             "b": [
-                "S1"
-            ]
-        },
-        "S1": {
-            "a": [
-                "S0"
-            ]
-        },
-        "S0": {
-            "a": [
                 "S0"
             ]
         }
