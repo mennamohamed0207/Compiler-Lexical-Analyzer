@@ -1,25 +1,19 @@
 {
-      "startingState": "S3",
+      "startingState": "S1",
       "S1": {
-            "a": "S2",
+            "ab.bc|*.d+.": "S2",
             "isTerminatingState": false
       },
       "S2": {
-            "ε": [
-                  "S4",
-                  "S3"
-            ],
+            "ε": "S3",
             "isTerminatingState": false
       },
       "S3": {
-            "ε": [
-                  "S1",
-                  "S4"
-            ],
+            "b": "S4",
             "isTerminatingState": false
       },
       "S4": {
-            "ε": "S5",
+            "ε": "S11",
             "isTerminatingState": false
       },
       "S5": {
@@ -27,11 +21,11 @@
             "isTerminatingState": false
       },
       "S6": {
-            "ε": "S9",
+            "ε": "S10",
             "isTerminatingState": false
       },
       "S7": {
-            "b": "S8",
+            "c": "S8",
             "isTerminatingState": false
       },
       "S8": {
@@ -40,31 +34,45 @@
       },
       "S9": {
             "ε": [
-                  "S7",
-                  "S10"
+                  "S5",
+                  "S7"
             ],
             "isTerminatingState": false
       },
       "S10": {
-            "ε": "S13",
-            "isTerminatingState": false
-      },
-      "S11": {
-            "a": "S12",
-            "isTerminatingState": false
-      },
-      "S12": {
             "ε": [
-                  "S14",
+                  "S12",
                   "S11"
             ],
             "isTerminatingState": false
       },
+      "S11": {
+            "ε": [
+                  "S9",
+                  "S12"
+            ],
+            "isTerminatingState": false
+      },
+      "S12": {
+            "ε": "S15",
+            "isTerminatingState": false
+      },
       "S13": {
-            "ε": "S11",
+            "d": "S14",
             "isTerminatingState": false
       },
       "S14": {
+            "ε": [
+                  "S16",
+                  "S13"
+            ],
+            "isTerminatingState": false
+      },
+      "S15": {
+            "ε": "S13",
+            "isTerminatingState": false
+      },
+      "S16": {
             "isTerminatingState": true
       }
 }
