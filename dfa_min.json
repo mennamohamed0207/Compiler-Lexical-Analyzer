@@ -5,6 +5,6 @@
     },
     "S1": {
         "isTerminatingState": false,
-        ".": "S0"
+        "a-b": "S0"
     }
 }

@@ -1,16 +1,7 @@
 {
-    "startingState": "S9",
+    "startingState": "S5",
     "S1": {
-        "0": "S2",
-        "1": "S2",
-        "2": "S2",
-        "3": "S2",
-        "4": "S2",
-        "5": "S2",
-        "6": "S2",
-        "7": "S2",
-        "8": "S2",
-        "9": "S2",
+        "a": "S2",
         "isTerminatingState": false
     },
     "S2": {
@@ -18,32 +9,7 @@
         "isTerminatingState": false
     },
     "S3": {
-        "a": "S4",
         "b": "S4",
-        "c": "S4",
-        "d": "S4",
-        "e": "S4",
-        "f": "S4",
-        "g": "S4",
-        "h": "S4",
-        "i": "S4",
-        "j": "S4",
-        "k": "S4",
-        "l": "S4",
-        "m": "S4",
-        "n": "S4",
-        "o": "S4",
-        "p": "S4",
-        "q": "S4",
-        "r": "S4",
-        "s": "S4",
-        "t": "S4",
-        "u": "S4",
-        "v": "S4",
-        "w": "S4",
-        "x": "S4",
-        "y": "S4",
-        "z": "S4",
         "isTerminatingState": false
     },
     "S4": {
@@ -58,50 +24,6 @@
         "isTerminatingState": false
     },
     "S6": {
-        "\u03b5": "S10",
-        "isTerminatingState": false
-    },
-    "S7": {
-        "A": "S8",
-        "B": "S8",
-        "C": "S8",
-        "D": "S8",
-        "E": "S8",
-        "F": "S8",
-        "G": "S8",
-        "H": "S8",
-        "I": "S8",
-        "J": "S8",
-        "K": "S8",
-        "L": "S8",
-        "M": "S8",
-        "N": "S8",
-        "O": "S8",
-        "P": "S8",
-        "Q": "S8",
-        "R": "S8",
-        "S": "S8",
-        "T": "S8",
-        "U": "S8",
-        "V": "S8",
-        "W": "S8",
-        "X": "S8",
-        "Y": "S8",
-        "Z": "S8",
-        "isTerminatingState": false
-    },
-    "S8": {
-        "\u03b5": "S10",
-        "isTerminatingState": false
-    },
-    "S9": {
-        "\u03b5": [
-            "S5",
-            "S7"
-        ],
-        "isTerminatingState": false
-    },
-    "S10": {
         "isTerminatingState": true
     }
 }
