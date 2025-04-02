@@ -2,6 +2,6 @@
     "startingState": "S0",
     "S0": {
         "isTerminatingState": true,
-        "a-c": "S0"
+        "a-b": "S0"
     }
 }

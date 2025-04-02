@@ -1,7 +1,7 @@
 digraph {
 	rankdir=LR
 	S0 [label=S0 shape=doublecircle]
-	Start [shape=point]
-	Start -> S0
-	S0 -> S0 [label="a-c"]
+	start [shape=point]
+	start -> S0
+	S0 -> S0 [label="a-b"]
 }
