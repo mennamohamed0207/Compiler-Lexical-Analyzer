@@ -4,5 +4,5 @@ digraph {
 	S1 [label=S1 shape=circle]
 	start [shape=point]
 	start -> S1
-	S1 -> S0 [label="a-z"]
+	S1 -> S0 [label="."]
 }

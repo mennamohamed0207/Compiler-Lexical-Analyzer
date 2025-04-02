@@ -5,6 +5,6 @@
     },
     "S1": {
         "isTerminatingState": false,
-        "a-z": "S0"
+        ".": "S0"
     }
 }
