@@ -10,7 +10,6 @@ This repository contains a Python-based implementation of a compiler lexical ana
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Overview
 
